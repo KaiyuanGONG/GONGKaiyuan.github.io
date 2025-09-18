@@ -1,15 +1,14 @@
 ---
-title: Template homepage
-author: Templato Urnehm
-shortbio: PhD student in 👽 science
+title: Personal Academic Page
+author: Kaiyuan GONG
+shortbio: M2 student in LMFI
 description-meta: PhD student in 👽 science
 og-url: https://basicpage.github.io
 location: Some lab, office 777
-email: noreply@noemail.com
-picture: img/profile.png
-picture-round: false
+email: gongkaiyuan88@gmail.com
+<?picture: img/profile.png picture-round: false>
 side-by-side: true
-pronouns: They/Them
+pronouns: he/him
 og-picture: https://basicpage.github.io/img/profile.png
 orcid: 0000-0000-0000-0000
 dblp: https://dblp.org/
@@ -22,9 +21,7 @@ bitbucket: bitbucket.com
 bluesky: https://bsky.app/
 linkedin: https://www.linkedin.com
 footer: >-
-  Based on the
-  [basicpage template](https://github.com/basicpage/basicpage.github.io),
-  made to be easy to use! 🎓
+  This page was created as a temporary page.
 ---
 
 I am a (fake) PhD student, working on 👽 science on all kinds of related topics.
