@@ -6,7 +6,7 @@ description-meta: PhD student in 👽 science
 og-url: https://basicpage.github.io
 location: Some lab, office 777
 email: gongkaiyuan88@gmail.com
-<?picture: img/profile.png picture-round: false>
+<!-- picture: img/profile.png picture-round: false -->
 side-by-side: true
 pronouns: he/him
 og-picture: https://basicpage.github.io/img/profile.png
