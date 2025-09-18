@@ -2,177 +2,69 @@
 title: Personal Academic Page
 author: Kaiyuan GONG
 shortbio: M2 student in LMFI
-description-meta: PhD student in 👽 science
-og-url: https://basicpage.github.io
-location: Some lab, office 777
+description-meta: Currently pursuing an M2 in LMFI (Master Logique Mathématique et Fondements Informatique) at Université Paris Cité
+og-url: https://kaiyuangong.github.io/GONGKaiyuan.github.io
+location: 148 Bd Maxime Gorki, 94800 Villejuif
 email: gongkaiyuan88@gmail.com
-# picture: img/profile.png 
-# picture-round: false -->
+picture: img/photo.jpg 
+picture-round: false -->
 side-by-side: true
 pronouns: he/him
-og-picture: https://basicpage.github.io/img/profile.png
+og-picture: https://basicpage.github.io/img/profile.jpeg
 orcid: 0000-0000-0000-0000
-dblp: https://dblp.org/
-scholar: https://scholar.google.com/
-hal: https://hal.science/
-mastodon: https://lipn.info
-github: basicpage
-gitlab: gitlab
-bitbucket: bitbucket.com
-bluesky: https://bsky.app/
-linkedin: https://www.linkedin.com
+github: KaiyuanGONG
+linkedin: https://www.linkedin.com/in/kaiyuan-gong-ba3839253
 footer: >-
   This page was created as a temporary page.
 ---
 
-I am a (fake) PhD student, working on 👽 science on all kinds of related topics.
+Engineer graduate from IMT Mines Alès, specialized in Artificial Intelligence and Computer Science.
 
-My workflow is usually to use <kbd>Ctrl</kbd> + <kbd>C</kbd> /
-<kbd>Ctrl</kbd> + <kbd>V</kbd>. 🫣
+Currently pursuing an M2 in LMFI (Master Logique Mathématique et Fondements de l'Informatique) at Université Paris Cité.
 
-> [!NOTE]
-> This website is obviously a fake one, but it's meant to be very easy to use.
-> Just follow the README of the
-> [Github repository](https://github.com/basicpage/basicpage.github.io).
+My interests include algorithms, formal methods and verification, and applications of AI to healthcare.
 
 # Publications
 
-## Conference papers
-
-``` json {.paper}
-"title": "Towards automatic academic pages 2",
-"authors": "Templato Urnehm, U. N. Owen, Wan Morotter",
-"venue": "Principles of Awesomeness (PAW)",
-"year": "2024",
-"url": "https://basicpage.github.io"
-```
-
-``` json {.paper}
-"title": "Towards automatic academic pages",
-"authors": "Templato Urnehm, U. N. Owen",
-"awards": "Automatic Award",
-"venue": "Principles of Awesomeness (PAW)",
-"year": "2023",
-"url": "https://basicpage.github.io",
-"files": [
-  { "text": "Paper", "type": "pdf", "src": "foo.pdf" },
-  { "text": "Bibtex", "type": "bib", "src": "foo.bib" },
-  { "text": "Formalisation", "type": "code", "src": "foo.v" }
-]
-```
-
 ## Journal papers
 
-``` yaml {.paper}
-title: Yet another yaml parser 3
-authors: Templato Urnehm
-awards: 
-  - Yet another "Yet another" award
-  - Never-ending Work Award
-venue: Proceedings of Nihilism
-year: 2029
-url: https://basicpage.github.io
-files:
-  - text: Paper
-    type: pdf
-    scr: foo.pdf
-  - text: Bibtex
-    type: bib
-    src: foo.bib
-```
-
-``` yaml {.papers}
-papers:
-  - title: Yet another yaml parser 2
-    authors: Templato Urnehm
-    venue: Proceedings of Nihilism
-    year: 2027
-    files:
-      - text: Paper
-        type: pdf
-        scr: foo.pdf
-      - text: Bibtex
-        type: bib
-        src: foo.bib
-  - title: Yet another yaml parser
-    authors: Templato Urnehm
-    awards: Yet another "Yet another" award
-    venue: Proceedings of Nihilism
-    year: 2025
-    files:
-      - text: Paper
-        type: pdf
-        scr: foo.pdf
-      - text: Bibtex
-        type: bib
-        src: foo.bib
-      - text: Some link
-        type: link
-        src: fake.link.xyz
-      - text: Repo
-        type: git
-        src: github.com
-```
-
 ``` json {.paper}
-"title": "How to tame your wagon",
-"authors": "Templato Urnehm",
-"venue": "Journal of Automatic Rejection (JAR)",
-"year": "2022"
+"title": "Predicting Response to [177Lu]Lu-PSMA Therapy in mCRPC Using Machine Learning",
+"authors": "Kaiyuan Gong, Baptiste Magnier,  Vincent Boudousq, et al.",
+"venue": "Journal of Personalized Medicine",
+"year": "2024"
 ```
 
 ## Drafts
 
 ``` json {.paper}
-"title": "TBD",
-"authors": "TBD",
-"awards": [
-  "Best Draft Award",
-  "Test-of-time Award for works which just never leave the draft stage"
-],
-"files": [
-  { "text": "🐱 video", "type": "video", "src": "foo.mov" },
-  { "text": "Poem", "type": "txt", "src": "foo.txt" },
-  { "text": "My picture", "type": "img", "src": "img/profile.png" },
-  { "text": "💣", "type": "zip", "src": "foo.zip" },
-  { "text": "Slides", "type": "slides", "src": "foo.key" },
-  { "text": "Some random file", "src": "foo.rand" }
-]
+"title": "SPECT4D: AI-enhanced Respiratory Motion Compensation for Liver SPECT",
+  "authors": "Kaiyuan GONG",
+  "venue": "Research Internship – CHU Nîmes",
+  "year": "2025",
+  "abstract": "This project focuses on improving respiratory-gated SPECT imaging for liver cancer dosimetry by leveraging deep learning and physics-informed reconstruction. Multiple data sources are integrated, including experimental physical phantom data, clinical patient data, synthetic phantoms, and simulated XCAT phantoms. The aim is to reduce motion-induced artifacts, improve signal-to-noise ratio, and decrease reconstruction times, enabling more accurate quantification for theranostics applications such as 177Lu-based radioligand therapy.",
+  "methods": [
+    "Respiratory signal extraction from list-mode projection data using center-of-mass tracking and low-pass filtering.",
+    "Per-phase 3D SPECT reconstruction, deformable image registration (DVF-Net), and motion-compensated reconstruction with unrolled deep networks.",
+    "Integration of physics priors (attenuation correction, collimator-detector response, scatter correction) and Poisson NLL loss for physics-consistent training.",
+    "Data augmentation with synthetic and simulated phantoms (XCAT, SIMIND Monte Carlo) to improve model generalization."
+  ],
+  "data": [
+    "Experimental phantom measurements (radioactive sphere with respiratory motion).",
+    "Clinical patient SPECT/CT data (real cases from CHU Nîmes).",
+    "Synthetic simplified phantoms and XCAT simulations (analytical and Monte Carlo)."
+  ],
+  "status": "draft"
 ```
 
-## Talks
-
-``` json {.papers}
-{
-  "title": "Talk 1",
-  "authors": "Templato Urnehm",
-  "venue": "My room"
-},
-{
-  "title": "Secret talk",
-  "authors": "Templato Urnehm",
-  "year": "1990"
-},
-{
-  "title": "Talk 3",
-  "authors": "Templato Urnehm",
-  "venue": "Don't remember…",
-  "year": "???"
-}
-```
 
 # Education
 
-- I was able to paint with my hands in kindergarten.
-- I went to high school where I studied stuff.
-- Master degree in hand painting.
-
-# Teaching
-
-- I am teaching the TD sessions on the 👽 science course.
+- **M2 – Master LMFI (Logique Mathématique et Fondements de l'Informatique)**  
+  *Université Paris Cité, Paris, France*
+- **Engineering Degree – Artificial Intelligence and Computer Science**  
+  *IMT Mines Alès, Alès, France*  
+- **Bachelor of Engineering – Electronic Information Engineering**  
+  *Xidian University, Xi’an, China*
 
 # Community service
-
-- 32 reviews for Journal of Awesomeness.
-- 1 review for a cool conference.
-- PC member of the journal of my school.
